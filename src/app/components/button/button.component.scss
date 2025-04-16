@@ -8,6 +8,11 @@
     font-weight: bold;
     cursor: pointer;
     border: 1px solid;
+    position: relative;
+
+    &:active{
+        bottom: -2px;
+    }
 
     &--white {
         background-color: white;
