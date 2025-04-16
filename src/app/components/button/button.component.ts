@@ -10,3 +10,4 @@ export class ButtonComponent {
  @Input({ required: true, alias: 'text' }) buttonText: string = '';
  @Input({ required: true, alias: 'style' }) buttonStyle: 'White' | 'Purple' = 'White';
 }
+
