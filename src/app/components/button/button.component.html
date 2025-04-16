@@ -1,6 +1,9 @@
-<button class="button button--white">
-    {{ buttonText }}
-</button>
-<button class="button button--purple">
-    {{ buttonText }}
-</button>
+<button 
+class="button"
+[ngClass]="{
+    'button--white': buttonStyle === 'white',
+    'button--purple': buttonStyle === 'purple'
+}"
+    (click)="onButtonClicked()"
+    [disabled]="isDisabled"
+>{{ buttonText }}</button>
