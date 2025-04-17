@@ -11,7 +11,7 @@ export class ButtonComponent {
  buttonText: string = '';
  
  @Input({ required: true, alias: 'style' })
-  buttonStyle: 'white' | 'purple' = 'white';
+  buttonStyle: 'white' | 'purple' | 'blue' = 'white';
 
   @Input({ alias: 'disabled' })
   isDisabled: boolean = false;

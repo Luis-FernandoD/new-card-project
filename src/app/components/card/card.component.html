@@ -11,7 +11,9 @@
     <div class="card__price card__item">R${{ planPrice }},00/Mês</div>
     <app-button
         [text]="'Adquirir'"
+        [style]="cardStyle === 'orange' || cardStyle === 'purple' ? 'white'  : 'purple'"
         [style]="cardStyle === 'orange' ? 'white'  : 'purple'"
         (clicked)="onButtonClicked()"
+
     ></app-button>
 </div>
