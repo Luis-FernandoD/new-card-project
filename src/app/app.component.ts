@@ -10,4 +10,8 @@ export class AppComponent {
  buttonClicked(){
   alert("clicou");
  }
+
+ onCardButtonClicked(){
+  alert("ALOU")
+ }
 }
